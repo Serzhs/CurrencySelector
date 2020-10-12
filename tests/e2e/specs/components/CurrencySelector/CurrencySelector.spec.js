@@ -4,19 +4,10 @@ describe("CurrencySelector", () => {
   it("Should add all items when selected in right order and remove them", () => {
     cy.visit("/");
 
-    const availableCurrencies = cy.get("*[testID=currencies]");
-    const selectedCurrencies = [];
-
-    availableCurrencies
-      .each(currency => {
-        currency.click();
-        selectedCurrencies.push(currency.text());
-      })
-      .then(() => {
-        selectedCurrencies.forEach(currency => {
-          cy.contains("*[testID=selectedCurrencies]", currency);
-        });
-      });
+    cy.get("*[testID=currencies]").each(currency => {
+      currency.click();
+      cy.contains("*[testID=selectedCurrencies]", currency.text());
+    });
   });
   it("Should add correct item when clicked and then remove it", () => {
     cy.visit("/");
