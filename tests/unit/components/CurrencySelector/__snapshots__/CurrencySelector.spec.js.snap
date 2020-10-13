@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrencySelector.vue Matches snapshot 1`] = `
+<div>
+  <div />
+   
+  <div>
+    <label
+      for="EUR"
+      testid="currencies"
+    >
+      <span
+        class=""
+      >
+        <input
+          hidden="hidden"
+          id="EUR"
+          type="checkbox"
+        />
+         
+        <span />
+        
+        EUR
+      
+      </span>
+    </label>
+    <label
+      for="PLN"
+      testid="currencies"
+    >
+      <span
+        class=""
+      >
+        <input
+          hidden="hidden"
+          id="PLN"
+          type="checkbox"
+        />
+         
+        <span />
+        
+        PLN
+      
+      </span>
+    </label>
+    <label
+      for="GEL"
+      testid="currencies"
+    >
+      <span
+        class=""
+      >
+        <input
+          hidden="hidden"
+          id="GEL"
+          type="checkbox"
+        />
+         
+        <span />
+        
+        GEL
+      
+      </span>
+    </label>
+    <label
+      for="DKK"
+      testid="currencies"
+    >
+      <span
+        class=""
+      >
+        <input
+          hidden="hidden"
+          id="DKK"
+          type="checkbox"
+        />
+         
+        <span />
+        
+        DKK
+      
+      </span>
+    </label>
+    <label
+      for="CZK"
+      testid="currencies"
+    >
+      <span
+        class=""
+      >
+        <input
+          hidden="hidden"
+          id="CZK"
+          type="checkbox"
+        />
+         
+        <span />
+        
+        CZK
+      
+      </span>
+    </label>
+    <label
+      for="GBP"
+      testid="currencies"
+    >
+      <span
+        class=""
+      >
+        <input
+          hidden="hidden"
+          id="GBP"
+          type="checkbox"
+        />
+         
+        <span />
+        
+        GBP
+      
+      </span>
+    </label>
+    <label
+      for="SEK"
+      testid="currencies"
+    >
+      <span
+        class=""
+      >
+        <input
+          hidden="hidden"
+          id="SEK"
+          type="checkbox"
+        />
+         
+        <span />
+        
+        SEK
+      
+      </span>
+    </label>
+    <label
+      for="USD"
+      testid="currencies"
+    >
+      <span
+        class=""
+      >
+        <input
+          hidden="hidden"
+          id="USD"
+          type="checkbox"
+        />
+         
+        <span />
+        
+        USD
+      
+      </span>
+    </label>
+    <label
+      for="RUB"
+      testid="currencies"
+    >
+      <span
+        class=""
+      >
+        <input
+          hidden="hidden"
+          id="RUB"
+          type="checkbox"
+        />
+         
+        <span />
+        
+        RUB
+      
+      </span>
+    </label>
+  </div>
+</div>
+`;
